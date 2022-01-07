@@ -12,8 +12,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `montserrat`, //basic font
-          `prosto one` // logo font/ headers
+          `Montserrat`, //basic font
+          `Prosto One` // logo font/ headers
         ],
         display: 'swap'
       }
