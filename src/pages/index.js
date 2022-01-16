@@ -129,11 +129,11 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Krista Naso</title>
+      <title>Krista Naso's Portfolio</title>
       <h1 style={headingStyles}>
-        Congratulations
+        Welcome!
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
+        <span style={headingAccentStyles}>— this is my Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
