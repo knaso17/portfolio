@@ -1,15 +1,19 @@
-import * as React from "react"
+import React from "react"
 
 // markup
-const IndexPage = () => {
+export default function IndexPage () {
   return (
-    <main style={pageStyles}>
-      <title>Krista Naso's Portfolio</title>
-      <h1 style={headingStyles}>
-        Welcome!
-      </h1>
-    </main>
+    <React.Fragment>
+      <header>
+
+      </header>
+      <main>
+        <title>Krista Naso's Portfolio</title>
+        <h1>Welcome!</h1>
+        <p>More content coming soon!</p>
+      </main>
+    </React.Fragment>
   )
 }
 
-export default IndexPage
+
