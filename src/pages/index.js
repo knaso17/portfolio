@@ -14,9 +14,9 @@ export default function IndexPage () {
               placeholder="blurred"
               layout="fixed"
               style={{
-                width: "250px",
-                height: "250px",
-                borderRadius: "125px",
+                width: "150px",
+                height: "150px",
+                borderRadius: "75px",
               }}
             />
           </div>
