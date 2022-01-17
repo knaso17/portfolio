@@ -1,6 +1,6 @@
 import React from "react"
-
 import * as style from "../style/index.module.css"
+import { StaticImage } from "gatsby-plugin-image";
 
 // markup
 export default function IndexPage () {
