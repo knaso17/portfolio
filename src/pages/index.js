@@ -16,6 +16,19 @@ export default function IndexPage () {
               borderRadius: "125px",
             }}
           />
+          <nav>
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+            </ul>
+          </nav>
       </header>
       <main>
         <title>Krista Naso's Portfolio</title>
