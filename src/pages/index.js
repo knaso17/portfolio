@@ -7,7 +7,6 @@ export default function IndexPage () {
   return (
     <React.Fragment>
       <header>
-        <div>
           <StaticImage
               src="../images/KNLogo.png"
               alt="KN logo"
@@ -19,7 +18,6 @@ export default function IndexPage () {
                 borderRadius: "75px",
               }}
             />
-          </div>
           <nav>
             <ul>
               <li>
