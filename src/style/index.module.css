@@ -26,8 +26,8 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  height: 400px;
   background-color: #a3cfcd;
   font-family: Prosto One, Arial, Helvetica;
 }
@@ -37,13 +37,8 @@ header .container {
 }
 
 nav {
-  display: flex;
-  align-content: center;
-  align-items: flex-start;
-  justify-content: space-between;
-  overflow: hidden;
-  height: 140px;
-  margin-top: 10px;
+  margin-top: 50px;
+  margin-right: 15px;
 }
 
 nav ul {
@@ -52,7 +47,7 @@ nav ul {
 }
 
 nav li {
-  padding-left: 15px;
+  padding-left: 60px;
 }
 
 .projects .container {
