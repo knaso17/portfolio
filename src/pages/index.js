@@ -2,6 +2,9 @@ import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+
 // markup
 export default function IndexPage () {
   return (
