@@ -1,14 +1,15 @@
 import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
-import { Helmet } from "react-helmet";
+import favicon from '../../src/images/icon.png'
+import Helmet from "react-helmet";
 
 // markup
 export default function IndexPage () {
   return (
     <React.Fragment>
       <Helmet>
-        <meta name="icon" href="/src/images/icon.png" />
+        <meta name="icon" href={favicon} />
       </Helmet>
       <header>
           <StaticImage
