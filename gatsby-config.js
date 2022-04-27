@@ -8,6 +8,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     `gatsby-plugin-fontawesome-css`,
+    "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {

@@ -6,6 +6,9 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function IndexPage () {
   return (
     <React.Fragment>
+      <Helmet>
+        <meta name="icon" href="/src/icon.png" />
+      </Helmet>
       <header>
           <StaticImage
               src="../images/KNLogo.png"
