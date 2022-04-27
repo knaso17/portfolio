@@ -1,16 +1,11 @@
 import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
-import favicon from '../../src/images/KNfavicon.ico'
-import Helmet from "react-helmet";
 
 // markup
 export default function IndexPage () {
   return (
     <React.Fragment>
-      <Helmet>
-        <meta name="icon" href={favicon} />
-      </Helmet>
       <header>
           <StaticImage
               src="../images/KNLogo.png"
@@ -42,7 +37,26 @@ export default function IndexPage () {
       <main>
         <title>Krista Naso's Portfolio</title>
         <h1>Krista Naso's Portfolio</h1>
-        <p>More content coming soon!</p>
+        <div className={style.container} id="about">
+          <h2>About</h2>
+          <p>Hi, I'm Krista!</p>
+          <a href="https://www.linkedin.com/in/krista-naso/">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/knaso17">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+        </div>
+        <div className={style.container} id="projects">
+          <h2>About</h2>
+          <p>Hi, I'm Krista!</p>
+          <a href="#" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+            <a href="#" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+        </div>
       </main>
     </React.Fragment>
   )
