@@ -1,7 +1,7 @@
 import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
-import favicon from '../../src/images/icon.png'
+import favicon from '../../src/images/KNfavicon.ico'
 import Helmet from "react-helmet";
 
 // markup
