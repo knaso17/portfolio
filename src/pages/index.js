@@ -14,8 +14,9 @@ export default function IndexPage () {
               layout="fixed"
               style={{
                 width: "150px",
-                height: "150px",
-                borderRadius: "75px",
+                height: "120px",
+                objectFit: "cover",
+                borderRadius: "25px",
               }}
             />
           <nav>
