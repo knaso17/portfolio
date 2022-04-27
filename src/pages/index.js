@@ -8,7 +8,7 @@ export default function IndexPage () {
   return (
     <React.Fragment>
       <Helmet>
-        <meta name="icon" href="/src/icon.png" />
+        <meta name="icon" href="/src/images/icon.png" />
       </Helmet>
       <header>
           <StaticImage
