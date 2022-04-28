@@ -45,11 +45,11 @@ export default function IndexPage () {
           <p>Hi, I'm Krista!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
              className="iconLink">
-              <FontAwesomeIcon icon={faLinkedin}/>
+              <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
             </a>
             <a href="https://github.com/knaso17"
                className="iconLink">
-              <FontAwesomeIcon icon={faGithub} size={"2x"}/>
+              <FontAwesomeIcon icon={faGithub} size={"4x"}/>
             </a>
         </div>
         <div className={style.container} id="projects">
