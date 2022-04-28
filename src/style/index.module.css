@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-  display: flex;
   flex-direction: row;
   height: 350px;
   padding-top: 30px;
@@ -37,13 +36,14 @@ header .container {
 }
 
 nav {
-  margin-top: 20px;
+  margin-top: 53px;
   margin-right: 15px;
 }
 
 nav ul {
   display: flex;
   list-style-type: none;
+  margin: 0px;
 }
 
 nav li {
@@ -55,7 +55,7 @@ nav li {
   justify-content: center;
 }
 
-.icon {
+.iconLink {
   font-size: 50px;
 }
 .individual {

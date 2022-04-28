@@ -44,11 +44,11 @@ export default function IndexPage () {
           <h2>About</h2>
           <p>Hi, I'm Krista!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
-             className="icon">
+             className="iconLink">
               <FontAwesomeIcon icon={faLinkedin}/>
             </a>
             <a href="https://github.com/knaso17"
-               className="icon">
+               className="iconLink">
               <FontAwesomeIcon icon={faGithub} />
             </a>
         </div>
