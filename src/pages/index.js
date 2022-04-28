@@ -49,7 +49,7 @@ export default function IndexPage () {
             </a>
             <a href="https://github.com/knaso17"
                className="iconLink">
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} size={"2x"}/>
             </a>
         </div>
         <div className={style.container} id="projects">
