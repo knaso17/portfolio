@@ -43,22 +43,17 @@ export default function IndexPage () {
         <div className={style.container} id="about">
           <h2>About</h2>
           <p>Hi, I'm Krista!</p>
-          <a href="https://www.linkedin.com/in/krista-naso/">
-              <FontAwesomeIcon icon={faLinkedin} />
+          <a href="https://www.linkedin.com/in/krista-naso/"
+             className="icon">
+              <FontAwesomeIcon icon={faLinkedin}/>
             </a>
-            <a href="https://github.com/knaso17">
+            <a href="https://github.com/knaso17"
+               className="icon">
               <FontAwesomeIcon icon={faGithub} />
             </a>
         </div>
         <div className={style.container} id="projects">
-          <h2>About</h2>
-          <p>Hi, I'm Krista!</p>
-          <a href="#" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="#" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
+          <h2>Projects</h2>
         </div>
       </main>
     </React.Fragment>
