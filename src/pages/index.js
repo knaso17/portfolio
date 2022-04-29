@@ -44,11 +44,11 @@ export default function IndexPage () {
           <h2>About</h2>
           <p>Hi, I'm Krista! I'm a Junior Software Engineer who recently graduated from the Grace Hopper Program at Fullstack Academy. To learn more about me, click one of the icons below!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
-             className="iconLink">
+             target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
             </a>
             <a href="https://github.com/knaso17"
-               className="iconLink">
+               target="_blank">
               <FontAwesomeIcon icon={faGithub} size={"4x"}/>
             </a>
         </div>
