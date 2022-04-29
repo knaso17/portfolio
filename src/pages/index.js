@@ -42,7 +42,7 @@ export default function IndexPage () {
         <h1>Krista Naso's Portfolio</h1>
         <div className={style.container} id="about">
           <h2>About</h2>
-          <p>Hi, I'm Krista!</p>
+          <p>Hi, I'm Krista! I'm a Junior Software Engineer who recently graduated from the Grace Hopper Program at Fullstack Academy. To learn more about me, click one of the icons below!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
              className="iconLink">
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
@@ -54,6 +54,9 @@ export default function IndexPage () {
         </div>
         <div className={style.container} id="projects">
           <h2>Projects</h2>
+          <h3>Honeflower Movies</h3>
+          <h3>Chore Competition</h3>
+          <h3>Leashed: Tinder for Dogs</h3>
         </div>
       </main>
     </React.Fragment>
