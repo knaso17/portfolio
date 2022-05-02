@@ -9,6 +9,8 @@
 
 ## Info
 
-# Gatsby
+[Visit live site](https://www.krista-naso.com)
 
-# Netlify
+### Gatsby
+
+### Netlify
