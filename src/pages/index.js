@@ -17,10 +17,8 @@ export default function IndexPage () {
               placeholder="blurred"
               layout="fixed"
               style={{
-                width: "150px",
                 height: "95px",
-                objectFit: "cover",
-                borderRadius: "30px",
+                width: "auto",
                 margin: "12px",
               }}
             />
