@@ -19,6 +19,8 @@ export default function IndexPage () {
               style={{
                 height: "95px",
                 width: "auto",
+                objectFit: "cover",
+                borderRadius: "30px",
                 margin: "12px",
               }}
             />
