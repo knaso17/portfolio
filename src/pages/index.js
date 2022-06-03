@@ -58,6 +58,7 @@ export default function IndexPage () {
           <h3>Chore Competition</h3>
           <h3>Leashed: Tinder for Dogs</h3>
         </div>
+        <Slider />
         <TechStack />
       </main>
     </React.Fragment>
