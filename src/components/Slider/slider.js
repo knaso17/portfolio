@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 import * as style from "../../style/index.module.css";
 
-import sliderButton from "./sliderButton"
+import SliderButton from "./SliderButton"
 import { sliderData } from "./sliderData";
 
 export default function Slider() {
@@ -23,8 +23,8 @@ export default function Slider() {
   return (
     <div className="container-slider">
             <h2>{sliderData[slideIndex]}</h2>
-            <sliderButton moveSlide={nextSlide} direction={"next"} />
-            <sliderButton moveSlide={prevSlide} direction={"prev"}/>
+            <SliderButton moveSlide={nextSlide} direction={"next"} />
+            <SliderButton moveSlide={prevSlide} direction={"prev"}/>
 
             <div className="container-dots">
                 {Array.from({length: 3}).map((item, index) => (

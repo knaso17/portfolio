@@ -2,7 +2,7 @@ import React from "react";
 import leftArrow from "../../images/arrows/arrow-89-64.png";
 import rightArrow from "../../images/arrows/arrow-25-64.png";
 
-export default function BtnSlider({ direction, moveSlide }) {
+export default function SliderButton({ direction, moveSlide }) {
   return (
     <button
       onClick={moveSlide}
