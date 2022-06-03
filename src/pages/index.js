@@ -2,7 +2,7 @@ import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
 import TechStack from "../components/techStack";
-import Slider from "../components/Slider/Slider";
+import Slider from "../components/Slider/Slider.js";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
