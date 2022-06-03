@@ -53,7 +53,8 @@ export default function IndexPage () {
             </a>
             <a href="https://github.com/knaso17"
                target="_blank">
-              <FontAwesomeIcon icon={faGithub} size={"4x"}/>
+              <FontAwesomeIcon icon={faGithub} size={"4x"}
+              margin={"0 10px"}/>
             </a>
         </div>
         <div className={style.container} id="projects">
