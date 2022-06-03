@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 import * as style from "../style/index.module.css";
 
-import SliderButton from "./SliderButtonSliderButton"
+import SliderButton from "./SliderButton"
 import { sliderData } from "./sliderData";
 
 export default function Slider() {
