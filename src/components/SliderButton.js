@@ -9,8 +9,7 @@ export default function SliderButton({ direction, moveSlide }) {
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
       <StaticImage
-      src={direction === "next" ? "../images/arrows/arrow-25-64.png" :
-      "../images/arrows/arrow-89-64.png" }
+      src="../images/arrows/arrow-25-64.png"
       alt = "arrow"
       style={{
         height: "64px",
