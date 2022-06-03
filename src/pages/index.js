@@ -2,7 +2,6 @@ import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
 import TechStack from "../components/techStack";
-import Slider from "../components/Slider/slider";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -58,7 +57,6 @@ export default function IndexPage () {
           <h3>Chore Competition</h3>
           <h3>Leashed: Tinder for Dogs</h3>
         </div>
-        <Slider />
         <TechStack />
       </main>
     </React.Fragment>
