@@ -5,7 +5,7 @@ import * as style from "../../style/index.module.css";
 import sliderButton from "./sliderButton"
 import { sliderData } from "./sliderData";
 
-export default function Slider () {
+export default function Slider() {
   let [slideIndex, setSlideIndex] = useState(0);
 
   const nextSlide = () => {
@@ -35,5 +35,5 @@ export default function Slider () {
                 ))}
             </div>
         </div>
-  )
+  );
 }
