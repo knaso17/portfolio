@@ -16,13 +16,6 @@ export default function IndexPage () {
               alt="KN logo"
               placeholder="blurred"
               layout="fixed"
-              style={{
-                height: "95px",
-                width: "auto",
-                objectFit: "cover",
-                borderRadius: "30px",
-                margin: "12px",
-              }}
             />
           <nav>
             <ul>
