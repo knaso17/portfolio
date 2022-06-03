@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-import * as style from "../style/index.module.css";
+import * as style from "../../style/index.module.css";
 
 import sliderButton from "./sliderButton"
 import { sliderData } from "./sliderData";
