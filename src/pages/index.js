@@ -21,6 +21,7 @@ export default function IndexPage () {
                 height: "100px",
               }}
             />
+            <p id="logo-text">Krista Naso</p>
           <nav>
             <ul>
               <li>

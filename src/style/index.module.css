@@ -1,11 +1,11 @@
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 a:hover {
@@ -13,8 +13,9 @@ a:hover {
 }
 
 body {
-  background-color: #82a0aa;
+  background-color: #020e27;
   font-family: Montserrat, Arial, Helvetica;
+  color: white;
 }
 
 .container {
@@ -27,7 +28,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: #a3cfcd;
+  background-color: #020e27;
   font-family: Prosto One, Arial, Helvetica;
 }
 
@@ -78,7 +79,7 @@ nav li {
   top: 0%;
   left: 0%;
   z-index: 1000;
-  color: black;
+  color: white;
 }
 
 .techStack {
