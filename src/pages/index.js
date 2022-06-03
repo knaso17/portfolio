@@ -16,6 +16,9 @@ export default function IndexPage () {
               alt="KN logo"
               placeholder="blurred"
               layout="fixed"
+              style={{
+                width: "200px";
+              }}
             />
           <nav>
             <ul>
