@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 
-import * as style from "../../style/index.module.css";
+import * as style from "../style/index.module.css";
 
-import SliderButton from "./Slider/SliderButton"
-import { sliderData } from "./Slider/sliderData";
+import SliderButton from "./slider/SliderButton"
+import { sliderData } from "./slider/sliderData";
 
 export default function Slider() {
   let [slideIndex, setSlideIndex] = useState(0);
