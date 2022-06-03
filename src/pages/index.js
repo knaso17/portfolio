@@ -12,17 +12,21 @@ export default function IndexPage () {
   return (
     <React.Fragment>
       <header>
-          <StaticImage
-              src="../images/KNLogo.png"
-              alt="KN logo"
-              placeholder="blurred"
-              layout="fixed"
-              style={{
-                width: "100px",
-                height: "100px",
-              }}
-            />
-            <p id="logo-text">Krista Naso</p>
+          <div id="logo" >
+            <section className={style.imgContainer}>
+              <StaticImage
+                src="../images/KNLogo.png"
+                alt="KN logo"
+                placeholder="blurred"
+                layout="fixed"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                }}
+              />
+              </section>
+              <p id="logo-text">Krista Naso</p>
+            </div>
           <nav>
             <ul>
               <li>
@@ -58,7 +62,6 @@ export default function IndexPage () {
           <h3>Chore Competition</h3>
           <h3>Leashed: Tinder for Dogs</h3>
         </div>
-        <Slider />
         <TechStack />
       </main>
     </React.Fragment>
