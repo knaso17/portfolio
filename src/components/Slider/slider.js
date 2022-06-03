@@ -2,6 +2,7 @@ import React, {useState} from "react";
 
 import * as style from "../style/index.module.css";
 
+import sliderButton from "./sliderButton"
 import { sliderData } from "./sliderData";
 
 export default function Slider () {
@@ -21,7 +22,7 @@ export default function Slider () {
 
   return (
     <div className="container-slider">
-            {dataSlider.map((obj, index) => {
+            {sliderData.map((obj, index) => {
                 return (
                     <div
                     key={obj.id}
@@ -33,8 +34,8 @@ export default function Slider () {
                     </div>
                 )
             })}
-            <BtnSlider moveSlide={nextSlide} direction={"next"} />
-            <BtnSlider moveSlide={prevSlide} direction={"prev"}/>
+            <sliderButton moveSlide={nextSlide} direction={"next"} />
+            <sliderButton moveSlide={prevSlide} direction={"prev"}/>
 
             <div className="container-dots">
                 {Array.from({length: 5}).map((item, index) => (

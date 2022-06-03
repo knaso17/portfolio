@@ -1,11 +1,11 @@
 a {
   text-decoration: none;
-  color: white;
+  color: #c3d0e9;
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color: #c3d0e9;
 }
 
 a:hover {
@@ -15,7 +15,7 @@ a:hover {
 body {
   background-color: #020e27;
   font-family: Montserrat, Arial, Helvetica;
-  color: white;
+  color: #c3d0e9;
 }
 
 .container {
@@ -79,7 +79,7 @@ nav li {
   top: 0%;
   left: 0%;
   z-index: 1000;
-  color: white;
+  color: #c3d0e9;
 }
 
 .techStack {
