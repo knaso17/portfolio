@@ -29,8 +29,8 @@ body {
   padding-top: 30px;
 }
 
-.fa-4x {
-  margin: 0 10px;
+#fake-margin{
+  width: 10px;
 }
 
 header {

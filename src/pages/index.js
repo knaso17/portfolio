@@ -51,6 +51,7 @@ export default function IndexPage () {
              target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
             </a>
+            <div class="fake-margin"></div>
             <a href="https://github.com/knaso17"
                target="_blank">
               <FontAwesomeIcon icon={faGithub} size={"4x"}
