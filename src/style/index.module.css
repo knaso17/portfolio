@@ -29,6 +29,9 @@ body {
   padding-top: 30px;
 }
 
+.fa-4x {
+  margin: 0 10px;
+}
 
 header {
   display: flex;
