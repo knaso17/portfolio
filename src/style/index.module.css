@@ -27,6 +27,8 @@ body {
   flex-direction: row;
   height: 350px;
   padding-top: 30px;
+  width: 70%;
+  margin: auto;
 }
 
 .fake-margin{
