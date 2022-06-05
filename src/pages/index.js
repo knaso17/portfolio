@@ -28,17 +28,9 @@ export default function IndexPage () {
               <p className={style.logoText}>Krista Naso</p>
             </div>
           <nav>
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#projects">Projects</a>
-              </li>
-            </ul>
+            <a href="/">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
           </nav>
       </header>
       <main>
@@ -59,12 +51,6 @@ export default function IndexPage () {
             </a>
         </div>
         <Projects />
-        <div className={style.container} id="projects">
-          <h2>Projects</h2>
-          <h3>Honeflower Movies</h3>
-          <h3>Chore Competition</h3>
-          <h3>Leashed: Tinder for Dogs</h3>
-        </div>
         <TechStack />
       </main>
     </React.Fragment>
