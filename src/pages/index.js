@@ -25,7 +25,7 @@ export default function IndexPage () {
                 }}
               />
               </section>
-              <p id="logo-text">Krista Naso</p>
+              <p id="logoText">Krista Naso</p>
             </div>
           <nav>
             <ul>
@@ -51,7 +51,7 @@ export default function IndexPage () {
              target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
             </a>
-            <span class="fake-margin"></span>
+            <span class="fakeMargin"></span>
             <a href="https://github.com/knaso17"
                target="_blank">
               <FontAwesomeIcon icon={faGithub} size={"4x"}
