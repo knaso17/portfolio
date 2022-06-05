@@ -119,11 +119,11 @@ nav li {
   margin-bottom: 50px;
 }
 
-#logo{
+.logo{
   display: flex;
 }
 
-#logoText{
+.logoText{
   align-self: center;
   font-size: 40px;
   margin: 0;

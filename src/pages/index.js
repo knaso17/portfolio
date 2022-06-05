@@ -12,7 +12,7 @@ export default function IndexPage () {
   return (
     <React.Fragment>
       <header>
-          <div id="logo" >
+          <div className={style.logo} >
             <section className={style.imgContainer}>
               <StaticImage
                 src="../images/KNLogo.png"
