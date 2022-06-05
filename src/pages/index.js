@@ -2,7 +2,7 @@ import React from "react"
 import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
 import TechStack from "../components/techStack";
-import Slider from "../components/Slider";
+import Projects from "../components/projects";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -58,6 +58,7 @@ export default function IndexPage () {
               />
             </a>
         </div>
+        <Projects />
         <div className={style.container} id="projects">
           <h2>Projects</h2>
           <h3>Honeflower Movies</h3>
