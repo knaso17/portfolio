@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image";
 export default function TechStack() {
   return (
     <div className={style.techStack}>
-      <p> Tech Stack </p>
+      <h2> Tech Stack </h2>
       <div className={style.technologies}>
         <section className={style.imgContainer}>
           <StaticImage

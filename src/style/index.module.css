@@ -106,9 +106,7 @@ nav li {
   flex-direction: row;
   flex-wrap: wrap;
   border-radius: 10px;
-  margin-bottom: 20px;
   background: #698bc9;
-  padding: 20px 0 0 70px;
 }
 
 .imgContainer {
