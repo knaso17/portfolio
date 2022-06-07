@@ -25,7 +25,7 @@ body {
 
 .container {
   flex-direction: row;
-  padding-top: 30px;
+  padding-bottom: 40px;
   width: 70%;
   margin: auto;
 }
@@ -61,6 +61,15 @@ nav a {
 
 .projects {
   display: flex;
+  align-items: center;
+}
+
+.projects .imgContainer{
+  margin: 0;
+}
+
+.projectText{
+  margin: 0 16px;
 }
 
 .individual {
