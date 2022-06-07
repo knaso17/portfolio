@@ -3,6 +3,7 @@ import React from "react";
 import * as style from "../style/index.module.css";
 
 import { StaticImage } from "gatsby-plugin-image";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
@@ -36,7 +37,7 @@ export default function Projects() {
               <div className={style.projectLinks}>
                 <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
                   target="_blank">
-                <FontAwesomeIcon icon={faGithub}} size={"2x"}/>
+                <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 Github
                 </a>
               </div>
