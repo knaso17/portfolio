@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 export default function Projects() {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="about">
       <h2> Projects </h2>
         <section className={style.projects}>
           <StaticImage
