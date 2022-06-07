@@ -38,12 +38,10 @@ export default function IndexPage () {
         <h1>Krista Naso's Portfolio</h1>
         <div className={style.container} id="about">
           <h2>About Me</h2>
-          <p>
-            Hi, I'm Krista!
-            I live in the Chicago Area and work as a Front End Developer. I worked in eCommerce marketing after graduating from the University of Illinois at Chicago.
-            After realizing that my passion was working on websites, I made a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy.
-            To learn more, or to contact me, click one of the icons below!
-          </p>
+          <p>Hi, I'm Krista!</p>
+          <p>I live in the Chicago Area and work as a Front End Developer. I worked in eCommerce marketing after graduating from the University of Illinois at Chicago.</p>
+          <p>After realizing that my passion was working on websites, I made a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy.</p>
+          <p>To learn more, or to contact me, click one of the icons below!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
              target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size={"4x"}/>
