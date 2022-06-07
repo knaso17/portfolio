@@ -13,4 +13,14 @@
 
 ### Gatsby
 
+The Gatsby framework is used in this project to add React.js components to a static webpage.
+
 ### Netlify
+
+Netlify is used to host this project. It utilizes Github to deploy continuously.
+
+### Todo
+
+- Footer
+- Add additional links
+- Add additional projects
