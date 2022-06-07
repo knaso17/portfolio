@@ -3,6 +3,9 @@ import React from "react";
 import * as style from "../style/index.module.css";
 
 import { StaticImage } from "gatsby-plugin-image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
@@ -23,9 +26,20 @@ export default function Projects() {
           </section>
           <div className={style.projectText}>
             <h3>Leashed</h3>
-            <p>
-              Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships! Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system. Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.
-            </p>
+              <p>
+                Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships!
+              </p>
+              <p>
+                Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system.
+              </p>
+              <p>Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.</p>
+              <div className={style.projectLinks}>
+                <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
+                  target="_blank">
+                <FontAwesomeIcon icon={faGithub}} size={"2x"}/>
+                Github
+                </a>
+              </div>
             </div>
         </section>
         <section className={style.projects}>
