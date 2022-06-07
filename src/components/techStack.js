@@ -24,7 +24,7 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/css3.png"
-            alt="html icon"
+            alt="css icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -36,7 +36,7 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/javascript.png"
-            alt="html icon"
+            alt="js icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -48,7 +48,19 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/react.png"
-            alt="html icon"
+            alt="react icon"
+            placeholder="blurred"
+            layout="fixed"
+            style={{
+              height: "100px",
+              width: "100px",
+            }}
+          />
+        </section>
+        <section className={style.imgContainer}>
+          <StaticImage
+            src="../images/tech/expressjs-icon.png"
+            alt="express icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -60,7 +72,7 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/redux.png"
-            alt="html icon"
+            alt="redux icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -72,7 +84,7 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/postgresql.png"
-            alt="html icon"
+            alt="postgres icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -84,7 +96,7 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/github.png"
-            alt="html icon"
+            alt="github icon"
             placeholder="blurred"
             layout="fixed"
             style={{
@@ -96,7 +108,19 @@ export default function TechStack() {
         <section className={style.imgContainer}>
           <StaticImage
             src="../images/tech/nodejs.png"
-            alt="html icon"
+            alt="node icon"
+            placeholder="blurred"
+            layout="fixed"
+            style={{
+              height: "100px",
+              width: "100px",
+            }}
+          />
+        </section>
+        <section className={style.imgContainer}>
+          <StaticImage
+            src="../images/tech/jest-icon.png"
+            alt="jest icon"
             placeholder="blurred"
             layout="fixed"
             style={{
