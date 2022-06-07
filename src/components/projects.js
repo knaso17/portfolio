@@ -68,13 +68,13 @@ export default function Projects() {
                 <a href="https://github.com/2111honeflower/2111-grace-shopper"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
-                Github
+                {` Github`}
                 </a>
                 <span className={style.fakeMargin}></span>
                 <a href="https://movie-shopper.herokuapp.com/"
                   target="_blank">
                 <FontAwesomeIcon icon={faGlobe} size={"2x"}/>
-                Live Deploy
+                {` Live Deploy`}
                 </a>
               </div>
           </div>
