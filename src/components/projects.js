@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
@@ -70,9 +70,10 @@ export default function Projects() {
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 Github
                 </a>
+                <span className={style.fakeMargin}></span>
                 <a href="https://movie-shopper.herokuapp.com/"
                   target="_blank">
-                <FontAwesomeIcon icon={faUpRightFromSquare} size={"2x"}/>
+                <FontAwesomeIcon icon={faGlobe} size={"2x"}/>
                 Live Deploy
                 </a>
               </div>
