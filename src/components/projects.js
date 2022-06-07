@@ -46,13 +46,13 @@ export default function Projects() {
         <section className={style.projects}>
           <section className={style.imgContainer}>
             <StaticImage
-              src="../images/tech/html5.png"
-              alt="html icon"
+              src="../images/HoneMovies.png"
+              alt="Honeflower Logo"
               placeholder="blurred"
               layout="fixed"
               style={{
-                height: "100px",
-                width: "100px",
+                height: "200px",
+                width: "200px",
               }}
             />
           </section>
