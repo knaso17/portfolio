@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
@@ -59,8 +59,23 @@ export default function Projects() {
           <div className={style.projectText}>
             <h3>Honeflower Movies</h3>
             <p>
-              Billions upon billions radio telescope with pretty stories for which there's little good evidence a mote of dust suspended in a sunbeam prime number the ash of stellar alchemy. Are creatures of the cosmos laws of physics paroxysm of global death hydrogen atoms invent the universe extraplanetary. Vastness is bearable only through love bits of moving fluff a very small stage in a vast cosmic arena emerged into consciousness citizens of distant epochs descended from astronomers and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+              Honeflower Movies is a functional eCommerce website where you can browse and purchase your favorite movies.
             </p>
+            <p>
+              Team Members: Jill Sherman, Krista Naso, Cara Dodge and Krystin Fields.
+            </p>
+            <div className={style.projectLinks}>
+                <a href="https://github.com/2111honeflower/2111-grace-shopper"
+                  target="_blank">
+                <FontAwesomeIcon icon={faGithub} size={"2x"}/>
+                Github
+                </a>
+                <a href="https://movie-shopper.herokuapp.com/"
+                  target="_blank">
+                <FontAwesomeIcon icon={faUpRightFromSquare} size={"2x"}/>
+                Live Deploy
+                </a>
+              </div>
           </div>
         </section>
       </div>
