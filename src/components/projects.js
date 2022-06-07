@@ -38,7 +38,7 @@ export default function Projects() {
                 <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
-                Github
+                {` Github`}
                 </a>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function Projects() {
               placeholder="blurred"
               layout="fixed"
               style={{
-                height: "200px",
+                height: "auto",
                 width: "200px",
               }}
             />
@@ -102,7 +102,7 @@ export default function Projects() {
                 <a href="https://github.com/knaso17/Algo-Practice"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
-                Github
+                {` Github`}
                 </a>
               </div>
             </div>
