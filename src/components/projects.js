@@ -79,6 +79,34 @@ export default function Projects() {
               </div>
           </div>
         </section>
+        <section className={style.projects}>
+          <section className={style.imgContainer}>
+            <StaticImage
+              src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
+              alt="DSA image"
+              placeholder="blurred"
+              layout="fixed"
+              style={{
+                height: "200px",
+                width: "200px",
+              }}
+            />
+          </section>
+          <div className={style.projectText}>
+            <h3>Data Structures and Algorithms</h3>
+              <p>
+                Practice repository for data structures and algorithms. Utilizes Jest framework for unit testing.
+              </p>
+              <p>Solo Project</p>
+              <div className={style.projectLinks}>
+                <a href="https://github.com/knaso17/Algo-Practice"
+                  target="_blank">
+                <FontAwesomeIcon icon={faGithub} size={"2x"}/>
+                Github
+                </a>
+              </div>
+            </div>
+        </section>
       </div>
   );
 }
