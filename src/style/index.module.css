@@ -44,6 +44,10 @@ header {
   height: 100px;
 }
 
+h1, h2 {
+  color: #4169b4;
+}
+
 header .container {
   justify-content: space-evenly;
 }
@@ -140,7 +144,7 @@ nav a {
     font-size: 7vw;
   }
 
-  nav {
+  nav, .projects {
     flex-direction: column;
   }
 }
