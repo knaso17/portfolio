@@ -29,7 +29,7 @@ export default function Projects() {
             </div>
         </section>
         <section className={style.projects}>
-          <section className={style.imgContainer}></section>
+          <section className={style.imgContainer}>
             <StaticImage
               src="../images/tech/html5.png"
               alt="html icon"
