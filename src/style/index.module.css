@@ -41,10 +41,9 @@ header {
   background-color: #020e27;
   font-family: Prosto One, Arial, Helvetica;
   height: 100px;
-  position: absolute;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100%;
   z-index: 11;
   padding: 10px;
 }
