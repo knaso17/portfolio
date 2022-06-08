@@ -43,7 +43,7 @@ header {
   height: 100px;
   position: sticky;
   top: 0;
-  width: 100%;
+  width: 98.5%;
   z-index: 11;
   padding: 10px;
 }
@@ -52,7 +52,6 @@ h1 {
   text-align: left;
   font-size: 20px;
   color: #4169b4;
-  padding-top: 120px;
 }
 
 h2 {
