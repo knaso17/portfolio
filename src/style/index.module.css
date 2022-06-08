@@ -134,6 +134,7 @@ nav a {
   align-content: center;
   justify-content: center;
   margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 .logo{
