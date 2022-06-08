@@ -28,7 +28,7 @@ export default function IndexPage () {
               <p className={style.logoText}>Krista Naso</p>
             </div>
           <nav>
-            <a href="#">Home</a>
+            <a href="#top">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#tech">Tech</a>
@@ -36,7 +36,7 @@ export default function IndexPage () {
       </header>
       <main>
         <title>Krista Naso's Portfolio</title>
-        <h1>Krista Naso's Portfolio</h1>
+        <h1 id="top">Krista Naso's Portfolio</h1>
         <div className={style.container} id="about">
           <h2>About Me</h2>
           <p>Hi, I'm Krista!</p>
