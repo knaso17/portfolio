@@ -22,6 +22,7 @@ export default function Projects() {
               style={{
                 height: "200px",
                 width: "200px",
+                borderRadius: "15px",
               }}
             />
           </section>
@@ -53,6 +54,7 @@ export default function Projects() {
               style={{
                 height: "200px",
                 width: "200px",
+                borderRadius: "15px",
               }}
             />
           </section>
