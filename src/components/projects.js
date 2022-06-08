@@ -85,9 +85,9 @@ export default function Projects() {
               src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
               alt="DSA image"
               placeholder="blurred"
-              layout="fixed"
+              layout="constrained"
               style={{
-                height: "auto",
+                height: "200px",
                 width: "200px",
               }}
             />
