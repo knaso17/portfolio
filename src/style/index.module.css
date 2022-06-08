@@ -149,6 +149,12 @@ nav a {
   width: 30px;
 }
 
+@media screen and (min-width: 769px) {
+  nav {
+      width: 30%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .logoText {
     font-size: 7vw;
