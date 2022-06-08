@@ -43,7 +43,8 @@ header {
   height: 100px;
   position: sticky;
   top: 0;
-  width: 98.5%;
+  width: 96%;
+  margin: auto;
   z-index: 11;
   padding: 10px;
 }
@@ -159,7 +160,7 @@ nav a {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 705px) {
   .logoText {
     font-size: 7vw;
   }
