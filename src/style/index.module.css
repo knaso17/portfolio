@@ -162,7 +162,7 @@ nav a {
 
 @media screen and (max-width: 705px) {
   .logoText {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
   nav, .projects {
