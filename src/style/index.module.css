@@ -42,6 +42,8 @@ header {
   background-color: #020e27;
   font-family: Prosto One, Arial, Helvetica;
   height: 100px;
+  position: fixed;
+  top: 0;
 }
 
 h1 {
