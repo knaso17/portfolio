@@ -42,7 +42,7 @@ header {
   background-color: #020e27;
   font-family: Prosto One, Arial, Helvetica;
   height: 100px;
-  position: relative;
+  position: absolute;
   top: 0;
   z-index: 11;
 }
