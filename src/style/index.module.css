@@ -46,6 +46,7 @@ header {
   left: 0;
   right: 0;
   z-index: 11;
+  padding: 10px;
 }
 
 h1 {
