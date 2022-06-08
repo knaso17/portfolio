@@ -21,5 +21,7 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 
 ### Todo
 
+- favicon
+- Add content
 - Footer
 - Recommendations
