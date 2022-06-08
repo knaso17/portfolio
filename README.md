@@ -21,6 +21,5 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 
 ### Todo
 
-- Fix Header Links
 - Footer
 - Recommendations
