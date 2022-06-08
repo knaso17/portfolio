@@ -28,7 +28,7 @@ export default function IndexPage () {
               <p className={style.logoText}>Krista Naso</p>
             </div>
           <nav>
-            <a href="/">Home</a>
+            <a href="#">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#tech">Tech</a>
