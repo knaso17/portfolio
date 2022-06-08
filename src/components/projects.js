@@ -87,7 +87,6 @@ export default function Projects() {
               placeholder="blurred"
               layout="constrained"
               style={{
-                height: "200px",
                 width: "200px",
               }}
             />
