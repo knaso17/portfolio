@@ -31,8 +31,9 @@ export default function IndexPage () {
           <nav>
             <a href="#top">Home</a>
             <a href="#about">About</a>
-            <a href="#projects">Projects</a>
             <a href="#tech">Tech</a>
+            <a href="#projects">Projects</a>
+            <a href="#recs">Recs</a>
           </nav>
       </header>
       <main>
