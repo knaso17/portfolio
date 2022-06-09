@@ -23,8 +23,9 @@ body {
   flex-direction: row;
   padding-bottom: 40px;
   width: 70%;
-  margin: -116 auto auto;
+  margin: auto;
   padding-top: 116px;
+  margin-top: -116px;
 }
 
 .fakeMargin {
