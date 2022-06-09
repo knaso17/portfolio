@@ -28,9 +28,8 @@ body {
   flex-direction: row;
   padding-bottom: 40px;
   width: 70%;
-  margin: auto;
+  margin: -116 auto auto;
   padding-top: 116px;
-  margin-top: -116px;
 }
 
 .fakeMargin {
@@ -131,6 +130,9 @@ nav a {
   align-items: center;
   flex-direction: column;
   background-color: #020e27;
+  padding-top: 116px;
+  margin-top: -74px;
+  margin-bottom: 50px;;
 }
 
 .technologies {
