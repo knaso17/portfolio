@@ -95,12 +95,22 @@ nav a {
   margin: 0 16px;
 }
 
+.reContent {
+  line-height: 1.5;
+}
+
 .recName {
   color: #4169b4;
+  font-size: 18px;
 }
 
 .recRelationship {
   font-style: italic;
+}
+
+.recName, .recRelationship {
+  text-align: left;
+  margin: 0;
 }
 
 .techStack {
