@@ -99,32 +99,6 @@ nav a {
   margin: 0 16px;
 }
 
-.individual {
-  margin: 10px;
-  width: 500px;
-  height: 300px;
-  position: relative;
-}
-
-.individual:hover {
-  /* webkit-filter: blur(4px); /* Chrome, Safari, Opera */
-  /* filter: blur(4px); */
-  opacity: 50%;
-}
-
-.individual .icon {
-  display: none;
-}
-
-.individual:hover .icon {
-  display: inline-block;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  z-index: 1000;
-  color: #cfddf7;
-}
-
 .techStack {
   display: flex;
   align-items: center;
