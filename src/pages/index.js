@@ -3,6 +3,7 @@ import * as style from "../style/index.module.css"
 import { StaticImage } from "gatsby-plugin-image";
 import TechStack from "../components/techStack";
 import Projects from "../components/projects";
+import Recommendations from "../components/recommendations";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -54,8 +55,9 @@ export default function IndexPage () {
               />
             </a>
         </div>
-        <Projects />
         <TechStack />
+        <Projects />
+        <Recommendations/>
       </main>
     </React.Fragment>
   )
