@@ -70,6 +70,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(252, 109, 108, 0.2), rgba(252, 109, 108, 0.9), rgba(252, 109, 108, 0.2));
+  margin-top: 17px;
+
 }
 
 header .container {
@@ -106,7 +108,6 @@ nav a {
 }
 
 .recName {
-  color: #4169b4;
   font-size: 18px;
 }
 
@@ -115,6 +116,7 @@ nav a {
 }
 
 .recName, .recRelationship {
+  color: #4169b4;
   text-align: left;
   margin: 0;
 }
