@@ -91,8 +91,12 @@ nav a {
   margin: 0;
 }
 
-.projectText{
+.projectText {
   margin: 0 16px;
+}
+
+.relationship {
+  font-style: italic;
 }
 
 .techStack {
@@ -113,7 +117,7 @@ nav a {
   background: #394b73;
   padding-top: 50px;
   justify-content: space-evenly;
-  margin-bottom: 94px;
+  margin-bottom: 65px;
 }
 
 .imgContainer {

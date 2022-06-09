@@ -35,7 +35,7 @@ export default function Projects() {
                 Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system.
               </p>
               <p>Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.</p>
-              <div className={style.projectLinks}>
+              <div>
                 <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
@@ -66,7 +66,7 @@ export default function Projects() {
             <p>
               Team Members: Jill Sherman, Krista Naso, Cara Dodge and Krystin Fields.
             </p>
-            <div className={style.projectLinks}>
+            <div>
                 <a href="https://github.com/2111honeflower/2111-grace-shopper"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
@@ -99,7 +99,7 @@ export default function Projects() {
                 Practice repository for data structures and algorithms. Utilizes Jest framework for unit testing.
               </p>
               <p>Solo Project</p>
-              <div className={style.projectLinks}>
+              <div>
                 <a href="https://github.com/knaso17/Algo-Practice"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
