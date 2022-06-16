@@ -101,6 +101,7 @@ export default function Projects() {
               <p>
                 This project is a repository for data structures and algorithms practice. It utilizes the Jest framework for unit testing.
               </p>
+              <p>I'm currently utilizing Colt Steele's <a href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/">udemy</a> course to learn these concepts.</p>
               <p>Solo Project</p>
               <div>
                 <a href="https://github.com/knaso17/Algo-Practice"
