@@ -12,6 +12,7 @@ export default function Projects() {
   return (
     <div className={style.container} id="projects">
       <h2> Projects </h2>
+      <div className={style.babyBorder}></div>
         <section className={style.projects}>
           <section className={style.imgContainer}>
             <StaticImage

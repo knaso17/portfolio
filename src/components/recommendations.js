@@ -6,6 +6,7 @@ export default function Recommendations() {
   return (
     <div className={style.container} id="recs">
       <h2> Recs </h2>
+      <div className={style.babyBorder}></div>
         <section>
           <div>
             <p className={style.recContent}>

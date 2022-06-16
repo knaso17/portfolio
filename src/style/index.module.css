@@ -15,13 +15,18 @@ a:hover {
   position: sticky;
   top: 120px;
   width: 100%;
-  margin: auto;
   z-index: 11;
-  height: 8px;
+  height: 4px;
   background-image: linear-gradient(to right, #352135,
     #de6365,#352135);
 }
 
+.babyBorder {
+  width: 100%;
+  height: 4px;
+  background-image: linear-gradient(to right, #020e27,
+    #de6365, #020e27);
+}
 body {
   background-color: #020e27;
   font-family: Montserrat, Arial, Helvetica;

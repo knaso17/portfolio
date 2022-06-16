@@ -42,6 +42,7 @@ export default function IndexPage () {
         <h1 id="top">Krista Naso's Portfolio</h1>
         <div className={style.container} id="about">
           <h2>About Me</h2>
+          <div className={style.babyBorder}></div>
           <p>
             Hi, I'm Krista! I live in the Chicago Area and currently work as a Front End Developer.
           </p>
