@@ -42,8 +42,12 @@ export default function IndexPage () {
         <div className={style.container} id="about">
           <h2>About Me</h2>
           <p>Hi, I'm Krista!</p>
-          <p>I live in the Chicago Area and work as a Front End Developer. I worked in eCommerce marketing after graduating from the University of Illinois at Chicago.</p>
-          <p>After realizing that my passion was working on websites, I made a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy.</p>
+          <p>
+            I live in the Chicago Area and currently work as a Front End Developer. I previously worked in eCommerce marketing after graduating from the University of Illinois at Chicago. I worked on the vendor side of many major retailers, but I wasn't challenged enough by simply uploading products, tracking their progress, and making updates as needed. I decided to revisit my minor in Management Information Systems and start learning CSS, HTML, and JavaScript.
+          </p>
+          <p>
+            After learning the basics and really enjoying them, I decided to made a career transition to Software Engineering and completed the immersive Grace Hopper Program at Fullstack Academy. During that program I learned more about fullstack development including Node.js, PostgreSQL, React, Express and more. I'm now able to take what I've learned and apply it to real world problems and create beautiful websites.
+          </p>
           <p>To learn more, or to contact me, click one of the icons below!</p>
           <a href="https://www.linkedin.com/in/krista-naso/"
              target="_blank">

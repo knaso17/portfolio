@@ -24,3 +24,4 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 - Favicon
 - Add content
 - Footer
+- Text Preview only in mobile view?

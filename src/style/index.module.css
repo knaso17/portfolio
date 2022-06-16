@@ -177,4 +177,8 @@ nav a {
   nav, .projects {
     flex-direction: column;
   }
+
+  .recContent {
+    line-height: normal;
+  }
 }
