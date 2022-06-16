@@ -61,8 +61,11 @@ export default function Projects() {
           <div className={style.projectText}>
             <h3>Honeflower Movies</h3>
             <p>
-              Honeflower Movies is a functional eCommerce website where you can browse and purchase your favorite movies.
+              Honeflower Movies is a functional eCommerce website that allows guests and logged-in customers to shop for movies, while administrators can edit, add, and remove products. It features a robust product catalog, security, and persistent user sessions.
             </p>
+            <p>
+                Built by a team of four engineers who developed the database-backed API using PostgreSQL, Sequelize, Express, and Node.js. This single page application boasts a responsive frontend using React and Redux that included forms and conditional rendering. The development process was managed with an agile workflow that included daily standup meetings.
+              </p>
             <p>
               Team Members: Jill Sherman, Krista Naso, Cara Dodge and Krystin Fields.
             </p>
