@@ -12,8 +12,8 @@ export default function Projects() {
   return (
     <div className={style.container} id="projects">
       <h2> Projects </h2>
+      <h3>Leashed</h3>
         <section className={style.projects}>
-          <h3>Leashed</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="../images/LL.png"
@@ -44,8 +44,8 @@ export default function Projects() {
               </div>
             </div>
         </section>
+        <h3>Honeflower Movies</h3>
         <section className={style.projects}>
-          <h3>Honeflower Movies</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="../images/HoneMovies.png"
@@ -84,8 +84,8 @@ export default function Projects() {
               </div>
           </div>
         </section>
+        <h3>Data Structures and Algorithms</h3>
         <section className={style.projects}>
-          <h3>Data Structures and Algorithms</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
