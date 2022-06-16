@@ -35,6 +35,7 @@ export default function IndexPage () {
             <a href="#projects">Projects</a>
             <a href="#recs">Recs</a>
           </nav>
+          <div className={style.border}></div>
       </header>
       <main>
         <title>Krista Naso's Portfolio</title>
