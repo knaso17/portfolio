@@ -35,15 +35,13 @@ export default function Projects() {
                 Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system.
               </p>
               <p>Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.</p>
-              <div>
-                <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
+            </div>
+        </section>
+        <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
-              </div>
-            </div>
-        </section>
         <h3>Honeflower Movies</h3>
         <section className={style.projects}>
           <section className={style.imgContainer}>
