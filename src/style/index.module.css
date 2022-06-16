@@ -12,7 +12,11 @@ a:hover {
 }
 
 #border {
-  width: 100%;
+  position: sticky;
+  top: 100px;
+  width: 96%;
+  margin: auto;
+  z-index: 11;
   height: 8px;
   background-image: linear-gradient(red, yellow);
 }
