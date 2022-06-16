@@ -12,7 +12,6 @@ export default function Projects() {
   return (
     <div className={style.container} id="projects">
       <h2> Projects </h2>
-      <h3>Leashed</h3>
         <section className={style.projects}>
           <section className={style.imgContainer}>
             <StaticImage
@@ -28,6 +27,7 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
+              <h3>Leashed</h3>
               <p>
                 Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships!
               </p>
@@ -35,14 +35,15 @@ export default function Projects() {
                 Built by a team of four engineers who used a Firebase backend with authorization and Firestore as the noSQL database. This app was designed with an appealing user interface that utilized React Native, Paper, and Expo framework. The team organized the development process by taking advantage of a Kanban project management system.
               </p>
               <p>Team Members: Soli Choi, Krista Naso, Ashley Tran and Tiffany McNerlin.</p>
-            </div>
-        </section>
-        <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
+              <div>
+                <a href="https://github.com/2111-GH-Team-Cake-Capstone/2111-GH-Team-Cake-Capstone"
                   target="_blank">
                 <FontAwesomeIcon icon={faGithub} size={"2x"}/>
                 {` Github`}
                 </a>
-        <h3>Honeflower Movies</h3>
+              </div>
+            </div>
+        </section>
         <section className={style.projects}>
           <section className={style.imgContainer}>
             <StaticImage
@@ -58,6 +59,7 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
+            <h3>Honeflower Movies</h3>
             <p>
               Honeflower Movies is a functional eCommerce website that allows guests and logged-in customers to shop for movies, while administrators can edit, add, and remove products. It features a robust product catalog, security, and persistent user sessions.
             </p>
@@ -82,7 +84,6 @@ export default function Projects() {
               </div>
           </div>
         </section>
-        <h3>Data Structures and Algorithms</h3>
         <section className={style.projects}>
           <section className={style.imgContainer}>
             <StaticImage
@@ -96,6 +97,7 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
+              <h3>Data Structures and Algorithms</h3>
               <p>
                 This project is a repository for data structures and algorithms practice. It utilizes the Jest framework for unit testing.
               </p>
