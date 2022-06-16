@@ -108,7 +108,11 @@ nav a {
 .projects {
   display: flex;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 20px 0;
+}
+
+.projects:nth-of-type(odd) {
+  flex-direction: row-reverse;
 }
 
 .projects .imgContainer{
