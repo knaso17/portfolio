@@ -13,6 +13,7 @@ export default function Projects() {
     <div className={style.container} id="projects">
       <h2> Projects </h2>
         <section className={style.projects}>
+          <h3>Leashed</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="../images/LL.png"
@@ -27,7 +28,6 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
-            <h3>Leashed</h3>
               <p>
                 Leashed is Tinder for dogs! A location-based mobile app that lets you create a profile for your fluffy friend to meet local dogs and set up playdates. The swipe right functionality lets you like dogs in your area to find matches and create lasting friendships!
               </p>
@@ -45,6 +45,7 @@ export default function Projects() {
             </div>
         </section>
         <section className={style.projects}>
+          <h3>Honeflower Movies</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="../images/HoneMovies.png"
@@ -59,7 +60,6 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
-            <h3>Honeflower Movies</h3>
             <p>
               Honeflower Movies is a functional eCommerce website that allows guests and logged-in customers to shop for movies, while administrators can edit, add, and remove products. It features a robust product catalog, security, and persistent user sessions.
             </p>
@@ -85,6 +85,7 @@ export default function Projects() {
           </div>
         </section>
         <section className={style.projects}>
+          <h3>Data Structures and Algorithms</h3>
           <section className={style.imgContainer}>
             <StaticImage
               src="https://miro.medium.com/max/1400/0*UVG1F-0kLAEWAT3k"
@@ -97,7 +98,6 @@ export default function Projects() {
             />
           </section>
           <div className={style.projectText}>
-            <h3>Data Structures and Algorithms</h3>
               <p>
                 This project is a repository for data structures and algorithms practice. It utilizes the Jest framework for unit testing.
               </p>
