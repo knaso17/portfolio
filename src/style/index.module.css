@@ -11,7 +11,7 @@ a:hover {
   margin: 0 20%;
 }
 
-#border {
+.border {
   position: sticky;
   top: 100px;
   width: 96%;
@@ -174,7 +174,7 @@ nav a {
   width: 30px;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1020px) {
   nav {
       width: 30%;
   }
