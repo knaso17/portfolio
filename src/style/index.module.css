@@ -156,7 +156,7 @@ nav a {
   background: #394b73;
   padding-top: 50px;
   justify-content: space-evenly;
-  margin-bottom: 65px;
+  margin: 0 8px 65px;
 }
 
 .imgContainer {
