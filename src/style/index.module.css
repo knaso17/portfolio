@@ -18,7 +18,8 @@ a:hover {
   margin: auto;
   z-index: 11;
   height: 8px;
-  background-image: linear-gradient(to right, rgba(252, 109, 108, 0.2), rgba(252, 109, 108, 0.9), rgba(252, 109, 108, 0.2));
+  background-image: linear-gradient(to right, #352135,
+    #de6365,#352135);
 }
 
 body {
