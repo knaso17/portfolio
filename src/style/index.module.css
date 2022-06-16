@@ -18,7 +18,7 @@ a:hover {
   margin: auto;
   z-index: 11;
   height: 8px;
-  background-image: linear-gradient(#020e27, #fb6d6c);
+  background-image: linear-gradient(to right, rgba(252, 109, 108, 0.2), rgba(252, 109, 108, 0.9), rgba(252, 109, 108, 0.2));
 }
 
 body {
@@ -62,7 +62,7 @@ h1 {
   font-size: 20px;
   color: #fb6d6c;
   padding-left: 20px;
-  padding-top: 116px;
+  padding-top: 125px;
   margin-top: -116px;
 }
 
