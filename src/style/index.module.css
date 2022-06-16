@@ -101,6 +101,7 @@ nav a {
 
 .projectText {
   margin: 0 16px;
+  flex-basis: 100%;
 }
 
 .recContent {
