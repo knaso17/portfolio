@@ -208,6 +208,8 @@ nav a {
 @media screen and (max-width: 389px) {
   .projectText div {
     display: flex;
+    height: 90px;
+    justify-content: space-between;
     flex-direction: column;
   }
 }
