@@ -204,3 +204,10 @@ nav a {
     line-height: normal;
   }
 }
+
+@media screen and (max-width: 389px) {
+  .projectText div {
+    display: flex;
+    flex-direction: column;
+  }
+}

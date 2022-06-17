@@ -28,7 +28,7 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 
 #### Lighthouse Audit To-dos
 
-- [ ] Improve medium blue font color's contrast ratio
+- [x] Improve medium blue font color's contrast ratio
 - [x] Add Lang element and Meta description to rendered HTML
 - [ ] Add labels to LinkedIn and GitHub icon links in readMe
 - [ ] Fix wrap for Honeflower links
