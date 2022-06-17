@@ -19,9 +19,18 @@ The Gatsby framework is used in this project to add React.js components to a sta
 
 Netlify is used to host this project. It utilizes Github to deploy continuously.
 
-### Todo
+### To-do
 
 - Add labels to tech stack
 - Favicon
 - Footer
 - Text Preview only in mobile view?
+
+#### Lighthouse Audit To-dos
+
+- Improve medium blue font color's contrast ratio
+- Add Lang element and Meta description to rendered HTML
+- Add labels to LinkedIn and GitHub icon links in readMe
+- Fix wrap for Honeflower links
+- Research performance improvement suggestions
+- Prioritize Text Preview for mobile
