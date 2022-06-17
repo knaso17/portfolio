@@ -21,16 +21,16 @@ Netlify is used to host this project. It utilizes Github to deploy continuously.
 
 ### To-do
 
-- Add labels to tech stack
-- Favicon
-- Footer
-- Text Preview only in mobile view?
+- [ ] Add labels to tech stack(mouseover labels?)
+- [ ] Favicon
+- [ ] Footer
+- [ ] Text Preview only in mobile view?
 
 #### Lighthouse Audit To-dos
 
-- Improve medium blue font color's contrast ratio
-- Add Lang element and Meta description to rendered HTML
-- Add labels to LinkedIn and GitHub icon links in readMe
-- Fix wrap for Honeflower links
-- Research performance improvement suggestions
-- Prioritize Text Preview for mobile
+- [ ] Improve medium blue font color's contrast ratio
+- [x] Add Lang element and Meta description to rendered HTML
+- [ ] Add labels to LinkedIn and GitHub icon links in readMe
+- [ ] Fix wrap for Honeflower links
+- [ ] Research performance improvement suggestions
+- [ ] Prioritize Text Preview for mobile
